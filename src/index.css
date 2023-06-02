@@ -1,13 +1,98 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+body{
+    background-color: #1E1E1E;
+    margin: 138px;
 }
+.container{
+height: 609px;
+width: 1280px;
+background-color: #fff;
+border-radius: 0px;
+}
+.img-s{
+height: 555px;
+width: 620px;
+margin-left: 20px;
+margin-top: 27px;
+border-radius: 20px;
+}
+input{
+    border-radius: 10px;
+    border: 1px solid #3d3d50
+}
+.sub-f{
+    background-color: #020100;
+    border-radius: 10px;
+    box-shadow: 0px 20px 32px 0px #0201006B;   
+}
+span{
+    color: #08A593;
+}
+h6{
+    color: #1E1E1E;
+}
+img{
+    margin-left: 123px;
+   
+}
+.exo{
+    height: 22px;
+    width: 64px;
+    margin-left: 20px !important;
+    margin-top: 27px !important;
+    border-radius: 0px;
+}
+.text-d{
+    height: 112px;
+    width: 475px;
+    margin-left: 20px;
+    margin-top: 220px;
+    border-radius: nullpx;
+    font-family: Poppins;
+}
+.text-s{
+font-size: 38px;
+font-weight: 600;
+line-height: 57px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.text-sp{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #BFBFBF;
+}
+.icon-1{
+    height: 20px;
+width: 300px;
+margin-left: 20px;
+margin-top: 127px;
+}
+ .item-a{   
+margin-left: 400px;
+gap: 6px;
+ }
+
+ .rect{
+    margin-left: 0px !important;
+ }
+ .icon-2{
+    margin-left: 23px;
+    margin-top: -11px;
+    color: rgba(255, 255, 255, 0.31);
+    width: 22px;
+ }
+ .aest{
+    font-size: 12px;
+    line-height: 12px;
+ }
+ h6{
+    color: #667085;
+ }

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/saksham-login/static/css/main.01da3e7b.css",
+    "main.js": "/saksham-login/static/js/main.383f588f.js",
+    "static/media/project1.png": "/saksham-login/static/media/project1.9940670237eb3b36abd2.png",
+    "index.html": "/saksham-login/index.html",
+    "main.01da3e7b.css.map": "/saksham-login/static/css/main.01da3e7b.css.map",
+    "main.383f588f.js.map": "/saksham-login/static/js/main.383f588f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01da3e7b.css",
+    "static/js/main.383f588f.js"
+  ]
+}
